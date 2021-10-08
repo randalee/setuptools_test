@@ -5,11 +5,11 @@ except ImportError:
 
 setup(
     name='randa_test',
-    version= '0.0.1',
+    version= '0.0.2',
     url='https://github.com/randalee/setuptools_test',
     author='RandaLee',
     author_email='ruciain@gmail.com',
-    packages=['randalee'],
+    packages=['randalee', 'randalee.t1'],
     license='GPL License',
     install_requires=[
         'requests',
